@@ -1,14 +1,14 @@
 import React from 'react'
 import "../../App.css"
-// import NavBar from './NavBar'
-// import Footer from './Footer'
-// import TopNav from './TopNav'
+import NavBar from './NavBar'
+import Footer from './Footer'
+import TopNav from './TopNav'
 
 const About = () => {
     return (
         <>
-            {/* <TopNav /> */}
-            {/* <NavBar /> */}
+            <TopNav />
+            <NavBar />
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="row g-5">
@@ -47,7 +47,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
