@@ -7,8 +7,8 @@ import TopNav from './TopNav'
 const About = () => {
     return (
         <>
-            <TopNav />
-            <NavBar />
+            {/* <TopNav /> */}
+            {/* <NavBar /> */}
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="row g-5">
